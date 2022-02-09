@@ -1,0 +1,86 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.4",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "We need your feedback",
+                    "wrap": true,
+                    "fontType": "Default",
+                    "size": "Large",
+                    "weight": "Bolder",
+                    "color": "Attention",
+                    "isSubtle": false
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "As a maker of Power Apps, we really value your feedback, and as part of our commitment to continually improve our service, we would appreciate it if you could let us know how we are doing? What can we do better, what are we doing well and what do you need?",
+                    "wrap": true,
+                    "spacing": "Large",
+                    "horizontalAlignment": "Left",
+                    "fontType": "Default",
+                    "size": "Medium",
+                    "color": "Dark",
+                    "isSubtle": false
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Please provide your feedback below:",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Input.Text",
+            "placeholder": "Placeholder text",
+            "isMultiline": true,
+            "id": "makerFeedback"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.Submit",
+                                    "title": "Submit"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Input.Toggle",
+                            "title": "Don't ask again",
+                            "id": "makerOptOut",
+                            "value": "false"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

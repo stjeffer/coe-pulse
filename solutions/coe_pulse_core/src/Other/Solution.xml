@@ -79,7 +79,16 @@
         </Address>
       </Addresses>
     </Publisher>
-    <RootComponents />
-    <MissingDependencies />
+    <RootComponents>
+      <RootComponent type="1" schemaName="cr7e5_appmakers" behavior="0" />
+      <RootComponent type="1" schemaName="cr7e5_pulsedata" behavior="0" />
+      <RootComponent type="29" id="{da2ca4dd-8d89-ec11-93b0-000d3ad4a7d0}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="cr7e5_sharedoffice365users_b12a2" solution="Active" id.connectionreferencelogicalname="cr7e5_sharedoffice365users_b12a2" />
+        <Dependent type="29" displayName="Get-RandomMakerFeedback" id="{da2ca4dd-8d89-ec11-93b0-000d3ad4a7d0}" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>

@@ -1,0 +1,14 @@
+<environmentvariabledefinition schemaname="cr7e5_CoEorCompanyName">
+  <defaultvalue>Contoso</defaultvalue>
+  <description default="Provide the company or CoE name. This is used in the adaptive card that is sent to the maker">
+    <label description="Provide the company or CoE name. This is used in the adaptive card that is sent to the maker" languagecode="1033" />
+  </description>
+  <displayname default="CoE or Company Name">
+    <label description="CoE or Company Name" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>
