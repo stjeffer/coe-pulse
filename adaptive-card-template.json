@@ -46,7 +46,6 @@
         },
         {
             "type": "Input.Text",
-            "placeholder": "Placeholder text",
             "isMultiline": true,
             "id": "makerFeedback"
         },
