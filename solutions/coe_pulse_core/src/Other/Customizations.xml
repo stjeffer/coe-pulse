@@ -11,6 +11,7 @@
   <optionsets />
   <CustomControls />
   <EntityDataProviders />
+  <CanvasApps />
   <connectionreferences>
     <connectionreference connectionreferencelogicalname="cr7e5_MicrosoftDataverse">
       <connectionreferencedisplayname>Microsoft Dataverse</connectionreferencedisplayname>
@@ -27,7 +28,7 @@
       <statuscode>1</statuscode>
     </connectionreference>
     <connectionreference connectionreferencelogicalname="cr7e5_Office365Useres">
-      <connectionreferencedisplayname>Office 365 Useres</connectionreferencedisplayname>
+      <connectionreferencedisplayname>Office 365 Users</connectionreferencedisplayname>
       <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365users</connectorid>
       <iscustomizable>1</iscustomizable>
       <statecode>0</statecode>
